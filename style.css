@@ -74,7 +74,7 @@ body{
 /* Malmont ----------------------------------------------------*/
 @font-face {
     font-family: 'Malmont';
-    src:          url("/assets/Malmont/Malmont-Regular.otf");
+    src:          url("/assets/fonts/malmont/Malmont-Regular.otf");
 }
 
 .malmont  {font-family: 'Malmont', sans-serif;}
@@ -84,59 +84,17 @@ body{
 /* Regular */
 @font-face {
     font-family: 'Mansory Regular';
-    src:         url("/assets/Mansory/Mansory-Regular.otf");
+    src:         url("/assets/fonts/mansory/Mansory-Regular.otf");
 }
 .mansory-regular {font-family: 'Mansory Regular', sans-serif;}
 
 
-@font-face {
-    font-family: 'Mansory Medium';
-    src:         url("/assets/Mansory/Mansory-Medium.otf");
-}
-.mansory-medium  {font-family: 'Mansory Medium', sans-serif;}
-
-
-@font-face {
-    font-family: 'Mansory Semi Bold';
-    src:         url("/assets/Mansory/Mansory-SemiBold.otf");
-}
-.mansory-semibold  {font-family: 'Mansory Semi Bold', sans-serif;}
-
-
-@font-face {
-    font-family: 'Mansory Bold';
-    src:         url("/assets/Mansory/Mansory-Bold.otf");
-}
-.mansory-bold  {font-family: 'Mansory Bold', sans-serif;}
-
-
 /* Oblique */
 @font-face {
-    font-family: 'Mansory Regular Oblique';
-    src:         url("/assets/Mansory/Mansory-RegularOblique.otf");
-}
-.mansory-regular-oblique  {font-family: 'Mansory Regular Oblique', sans-serif;}
-
-
-@font-face {
-    font-family: 'Mansory Medium Oblique';
-    src:         url("/assets/Mansory/Mansory-MediumOblique.otf");
-}
-.mansory-medium-oblique  {font-family: 'Mansory Medium Oblique', sans-serif;}
-
-
-@font-face {
     font-family: 'Mansory Semibold Oblique';
-    src:         url("/assets/Mansory/Mansory-SemiBoldOblique.otf");
+    src:         url("/assets/fonts/mansory/Mansory-SemiBoldOblique.otf");
 }
 .mansory-semibold-oblique  {font-family: 'Mansory Semibold Oblique', sans-serif;}
-
-
-@font-face {
-    font-family: 'Mansory Bold Oblique';
-    src:         url("/assets/Mansory/Mansory-BoldOblique.otf");
-}
-.mansory-bold-oblique  {font-family: 'Mansory Bold Oblique', sans-serif;}
 
 
 
