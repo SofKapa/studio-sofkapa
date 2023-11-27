@@ -106,13 +106,21 @@ p, li {
     margin-bottom:1rem;
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+}
+p a:hover {color: var(--brand-grey);}
 
-/* TEXT SIZE & POSITIONING */
+
+/* TEXT SIZE */
 .sm-text  {font-size: 1rem;}
 .md-text  {font-size: 1.5rem;}
 .lg-text  {font-size: 1.7rem;}
 .xl-text  {font-size: 3rem;}
 
+
+/* POSITIONING */
 .text-left    {text-align: left;}
 .text-right   {text-align: right;}
 .text-center  {text-align: center;}
@@ -120,8 +128,30 @@ p, li {
 .uppercase    {text-transform: uppercase;}
 .italic       {font-style: italic;}
 
+.content-start    {justify-items: flex-start;}
+.content-center   {justify-content: center;}
+.content-end      {justify-content: first baseline;}
+
+.space-between    {justify-content: space-between;}
+.space-around     {justify-content: space-around;}
+.space-evenly     {justify-content: space-evenly;}
+
+.flip-order-alternate                {flex-direction: row-reverse;}
+.column-top-to-bottom                {flex-direction: column;}
+.column-bottom-to-top                {flex-direction: column-reverse;}
+.flip-order-alternate:nth-child(even){flex-direction: row-reverse;}
+
+
+/* The flex-wrap property is a sub-property of the Flexible Box Layout module. 
+It defines wheather the flex items are forced in a single line or can be flowed into multiple lines. 
+If set to multiple lines, it also defines the cross-axis which determines the direction new lines are stacked in. */
+.flex-container {flex-wrap: wrap;}
+
+
 
 /* -- IMAGES -----------------------------------------------------------------*/
+.transparent {opacity: 0.8;}
+
 /* ASPECT RATIOS */
 .portrait-tall  {padding-bottom: 175%}
 .portrait       {padding-bottom: 125%}
@@ -141,6 +171,24 @@ p, li {
 .bg-pos-t-l { background-position: 10% 10%; }
 .bg-pos-b-r { background-position: 85% 85%; }
 
+/* HOMEPAGE "SERVICE TYPE" COVERS */
+.bg-motherhood { 
+    background-image: url('assets/motherhood/....jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.bg-self-love { 
+    background-image: url('assets/self-love/....jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.bg-movement { 
+    background-image: url('assets/movement/....jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+}
 
 /* -- PADDING ----------------------------------------------------------------*/
 /* CAPPED WIDTH */
