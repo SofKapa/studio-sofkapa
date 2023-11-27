@@ -171,7 +171,7 @@ If set to multiple lines, it also defines the cross-axis which determines the di
 .bg-pos-t-l { background-position: 10% 10%; }
 .bg-pos-b-r { background-position: 85% 85%; }
 
-/* HOMEPAGE "SERVICE TYPE" COVERS */
+/* HOMEPAGE "SERVICES" COVERS */
 .bg-motherhood { 
     background-image: url('assets/motherhood/....jpg');
     background-size: cover;
@@ -189,6 +189,26 @@ If set to multiple lines, it also defines the cross-axis which determines the di
     background-size: cover;
     background-position: 50% 50%;
 }
+
+
+/* POP-UP GALLERY */
+.gallery [class*="col-"] {padding: 0.3rem;}
+
+
+/* POP-UP GALLERY WHEN ACTIVE */
+.lg-backdrop {background-color: var(--brand-black);}
+
+.lg-backdrop.in {opacity: 0.9;}
+
+.lg-next, .lg-prev {
+    background-color: transparent;
+    color: var(--brand-lightgrey);
+    font-size: 60px;
+  }
+
+picture.lg-img-wrap {padding-bottom: 3rem;}
+
+
 
 /* -- PADDING ----------------------------------------------------------------*/
 /* CAPPED WIDTH */
@@ -349,3 +369,6 @@ If set to multiple lines, it also defines the cross-axis which determines the di
 .margin-lr-3   {margin-left: 3%; margin-right: 3%;}
 .margin-lr-4   {margin-left: 4%; margin-right: 4%;}
 .margin-lr-5   {margin-left: 5%; margin-right: 5%;}
+
+
+
