@@ -106,6 +106,21 @@ p, li {
     margin-bottom:1rem;
 }
 
+
+/* TEXT SIZE & POSITIONING */
+.sm-text  {font-size: 1rem;}
+.md-text  {font-size: 1.5rem;}
+.lg-text  {font-size: 1.7rem;}
+.xl-text  {font-size: 3rem;}
+
+.text-left    {text-align: left;}
+.text-right   {text-align: right;}
+.text-center  {text-align: center;}
+.text-justify {text-align: justify;}
+.uppercase    {text-transform: uppercase;}
+.italic       {font-style: italic;}
+
+
 /* -- IMAGES -----------------------------------------------------------------*/
 /* ASPECT RATIOS */
 .portrait-tall  {padding-bottom: 175%}
