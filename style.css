@@ -70,13 +70,11 @@ body{
 /* Open Sans --------------------------------------------------*/
 .opensans {font-family: 'Open Sans', sans-serif;}
 
-
 /* Malmont ----------------------------------------------------*/
 @font-face {
     font-family: 'Malmont';
     src:          url("/assets/fonts/malmont/Malmont-Regular.otf");
 }
-
 .malmont  {font-family: 'Malmont', sans-serif;}
 
 
