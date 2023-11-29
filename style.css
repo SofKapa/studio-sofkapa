@@ -84,6 +84,11 @@ body{
 .mansory-regular {font-family: 'Mansory Regular', sans-serif;}
 /* Oblique */
 @font-face {
+    font-family: 'Mansory Regular Oblique';
+    src:         url("/assets/fonts/mansory/Mansory-RegularOblique.otf");
+}
+.mansory-regular-oblique  {font-family: 'Mansory Regular Oblique', sans-serif;}
+@font-face {
     font-family: 'Mansory Semibold Oblique';
     src:         url("/assets/fonts/mansory/Mansory-SemiBoldOblique.otf");
 }
